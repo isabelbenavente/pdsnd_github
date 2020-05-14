@@ -186,11 +186,11 @@ def user_stats(df):
     print()
     if 'Birth Year' in df.columns:
         oldest = df['Birth Year'].min()
-        print('Our oldest user was born in:', oldest)
+        print('Our oldest user was born in: {}'.format(oldest))
         youngest = df['Birth Year'].max()
-        print('Our youngest user was born in:', youngest)
+        print('Our youngest user was born in: {}'.format(youngest))
         common_year = df['Birth Year'].mode()[0]
-        print('Most users were born in:', common_year)
+        print('Most users were born in: {}'.format(common_year))
     else:
         print('No Birth Year info available for DC')
 
