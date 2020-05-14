@@ -8,7 +8,7 @@ Python project for Udacity's 'Programming for Data Science with Python' Nanodegr
 I've written a script to create an interactive experience in the terminal
 that presents statistics about bikeshare data for 3 U.S. cities.
 
-The user is prompted to choose a city of interest and specify date filters if desired.
+The user is prompted to choose a city of interest and specify date filters if desired (month and/or weekday).
 It is also possible to view raw data within the terminal.
 
 ### Files used
